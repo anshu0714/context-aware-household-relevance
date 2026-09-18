@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0",
+  "ground_truth": [
+    {
+      "scenario_id": "S001",
+      "relevance_class": "HOUSEHOLD_WIDE",
+      "relevant_members": ["M001", "M002"],
+      "reason": "The electricity bill concerns a shared household utility. M001 manages electricity-related responsibilities and M002 manages household finances."
+    },
+    {
+      "scenario_id": "S002",
+      "relevance_class": "SELECTIVE",
+      "relevant_members": ["M002", "M003"],
+      "reason": "The receipt concerns Arjun's education. M003 is the student concerned and M002 is responsible for school administration."
+    },
+    {
+      "scenario_id": "S003",
+      "relevance_class": "PERSONAL",
+      "relevant_members": ["M001"],
+      "reason": "The insurance document identifies Raj as the vehicle policy holder, and M001 is responsible for the vehicle."
+    },
+    {
+      "scenario_id": "S004",
+      "relevance_class": "HOUSEHOLD_WIDE",
+      "relevant_members": ["M004", "M005"],
+      "reason": "The internet service is a shared household utility. M004 manages household utilities and M005 manages household finances."
+    },
+    {
+      "scenario_id": "S005",
+      "relevance_class": "SELECTIVE",
+      "relevant_members": ["M004", "M005"],
+      "reason": "The policy specifically covers Amit and Neha. Both are household members and M005 is responsible for healthcare arrangements."
+    },
+    {
+      "scenario_id": "S006",
+      "relevance_class": "PERSONAL",
+      "relevant_members": ["M006"],
+      "reason": "The salary statement concerns Rohan's individual employment and M006 is responsible for personal employment matters."
+    },
+    {
+      "scenario_id": "S007",
+      "relevance_class": "SELECTIVE",
+      "relevant_members": ["M008", "M009"],
+      "reason": "The examination notice specifically concerns Aarav. M009 is the student concerned and M008 is responsible for education administration."
+    },
+    {
+      "scenario_id": "S008",
+      "relevance_class": "HOUSEHOLD_WIDE",
+      "relevant_members": ["M007", "M008"],
+      "reason": "The refrigerator is a shared household asset. M007 is responsible for household maintenance and M008 shares household management responsibilities."
+    },
+    {
+      "scenario_id": "S009",
+      "relevance_class": "PERSONAL",
+      "relevant_members": ["M013"],
+      "reason": "The ticket is issued specifically to Karan and concerns his individual travel."
+    },
+    {
+      "scenario_id": "S010",
+      "relevance_class": "SELECTIVE",
+      "relevant_members": ["M011", "M012"],
+      "reason": "M011 is responsible for property maintenance, while M012 is responsible for household finances and the notice includes a repair charge and payment deadline."
+    }
+  ]
+}

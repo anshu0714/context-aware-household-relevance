@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.0",
+  "households": [
+    {
+      "household_id": "H001",
+      "members": [
+        {
+          "member_id": "M001",
+          "display_name": "Raj",
+          "role": "parent",
+          "responsibilities": [
+            "electricity_bill",
+            "vehicle",
+            "home_maintenance"
+          ]
+        },
+        {
+          "member_id": "M002",
+          "display_name": "Priya",
+          "role": "parent",
+          "responsibilities": [
+            "school_administration",
+            "healthcare",
+            "household_finance"
+          ]
+        },
+        {
+          "member_id": "M003",
+          "display_name": "Arjun",
+          "role": "student",
+          "responsibilities": ["personal_education"]
+        }
+      ]
+    },
+    {
+      "household_id": "H002",
+      "members": [
+        {
+          "member_id": "M004",
+          "display_name": "Amit",
+          "role": "parent",
+          "responsibilities": [
+            "property_maintenance",
+            "utilities",
+            "home_insurance"
+          ]
+        },
+        {
+          "member_id": "M005",
+          "display_name": "Neha",
+          "role": "parent",
+          "responsibilities": [
+            "household_finance",
+            "healthcare",
+            "travel_bookings"
+          ]
+        },
+        {
+          "member_id": "M006",
+          "display_name": "Rohan",
+          "role": "working_adult",
+          "responsibilities": ["personal_employment", "personal_banking"]
+        }
+      ]
+    },
+    {
+      "household_id": "H003",
+      "members": [
+        {
+          "member_id": "M007",
+          "display_name": "Vikram",
+          "role": "parent",
+          "responsibilities": ["utilities", "vehicle", "household_maintenance"]
+        },
+        {
+          "member_id": "M008",
+          "display_name": "Kavita",
+          "role": "parent",
+          "responsibilities": [
+            "education_administration",
+            "healthcare",
+            "household_finance"
+          ]
+        },
+        {
+          "member_id": "M009",
+          "display_name": "Aarav",
+          "role": "student",
+          "responsibilities": ["school", "personal_education"]
+        },
+        {
+          "member_id": "M010",
+          "display_name": "Anaya",
+          "role": "student",
+          "responsibilities": ["school", "personal_education"]
+        }
+      ]
+    },
+    {
+      "household_id": "H004",
+      "members": [
+        {
+          "member_id": "M011",
+          "display_name": "Sameer",
+          "role": "adult",
+          "responsibilities": ["rent", "utilities", "property_maintenance"]
+        },
+        {
+          "member_id": "M012",
+          "display_name": "Meera",
+          "role": "adult",
+          "responsibilities": ["household_finance", "insurance"]
+        },
+        {
+          "member_id": "M013",
+          "display_name": "Karan",
+          "role": "adult",
+          "responsibilities": ["employment", "personal_finance"]
+        }
+      ]
+    }
+  ]
+}

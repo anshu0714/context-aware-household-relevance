@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0",
+  "scenarios": [
+    {
+      "scenario_id": "S001",
+      "household_id": "H001",
+      "document_category": "UTILITIES",
+      "document_type": "electricity_bill",
+      "document_title": "Monthly Electricity Bill",
+      "document_description": "Monthly electricity bill for the household residence.",
+      "owner_member_id": "M001",
+      "split": "development",
+      "ambiguity_level": "low",
+      "leakage_review": "pending"
+    },
+    {
+      "scenario_id": "S002",
+      "household_id": "H001",
+      "document_category": "EDUCATION",
+      "document_type": "school_fee_receipt",
+      "document_title": "School Fee Receipt",
+      "document_description": "School fee receipt identifying Arjun as the student for whom the payment was made.",
+      "owner_member_id": "M002",
+      "split": "development",
+      "ambiguity_level": "medium",
+      "leakage_review": "pending"
+    },
+    {
+      "scenario_id": "S003",
+      "household_id": "H001",
+      "document_category": "INSURANCE",
+      "document_type": "vehicle_insurance_renewal",
+      "document_title": "Vehicle Insurance Renewal",
+      "document_description": "Vehicle insurance renewal document identifying Raj as the policy holder.",
+      "owner_member_id": "M001",
+      "split": "development",
+      "ambiguity_level": "medium",
+      "leakage_review": "pending"
+    },
+    {
+      "scenario_id": "S004",
+      "household_id": "H002",
+      "document_category": "UTILITIES",
+      "document_type": "home_internet_bill",
+      "document_title": "Home Internet Bill",
+      "document_description": "Monthly bill for shared internet service at the household residence.",
+      "owner_member_id": "M004",
+      "split": "development",
+      "ambiguity_level": "low",
+      "leakage_review": "pending"
+    },
+    {
+      "scenario_id": "S005",
+      "household_id": "H002",
+      "document_category": "INSURANCE",
+      "document_type": "family_health_insurance_policy",
+      "document_title": "Family Health Insurance Policy",
+      "document_description": "Family health insurance policy covering Amit and Neha.",
+      "owner_member_id": "M005",
+      "split": "development",
+      "ambiguity_level": "medium",
+      "leakage_review": "pending"
+    },
+    {
+      "scenario_id": "S006",
+      "household_id": "H002",
+      "document_category": "EMPLOYMENT",
+      "document_type": "salary_statement",
+      "document_title": "Employment Salary Statement",
+      "document_description": "Salary statement issued to Rohan for his individual employment.",
+      "owner_member_id": "M006",
+      "split": "development",
+      "ambiguity_level": "low",
+      "leakage_review": "pending"
+    },
+    {
+      "scenario_id": "S007",
+      "household_id": "H003",
+      "document_category": "EDUCATION",
+      "document_type": "school_examination_notice",
+      "document_title": "School Examination Notice",
+      "document_description": "School examination notice specifically identifying Aarav as the student concerned.",
+      "owner_member_id": "M008",
+      "split": "development",
+      "ambiguity_level": "medium",
+      "leakage_review": "pending"
+    },
+    {
+      "scenario_id": "S008",
+      "household_id": "H003",
+      "document_category": "WARRANTIES_RECEIPTS",
+      "document_type": "appliance_warranty",
+      "document_title": "Refrigerator Warranty",
+      "document_description": "Warranty document for a refrigerator used as a shared household appliance.",
+      "owner_member_id": "M007",
+      "split": "development",
+      "ambiguity_level": "medium",
+      "leakage_review": "pending"
+    },
+    {
+      "scenario_id": "S009",
+      "household_id": "H004",
+      "document_category": "TRAVEL",
+      "document_type": "individual_flight_ticket",
+      "document_title": "Individual Flight Ticket",
+      "document_description": "Flight ticket issued specifically to Karan for individual travel.",
+      "owner_member_id": "M013",
+      "split": "development",
+      "ambiguity_level": "low",
+      "leakage_review": "pending"
+    },
+    {
+      "scenario_id": "S010",
+      "household_id": "H004",
+      "document_category": "PROPERTY_RENTAL",
+      "document_type": "property_maintenance_notice",
+      "document_title": "Property Maintenance Notice",
+      "document_description": "Residential property maintenance notice containing an associated repair charge and payment deadline.",
+      "owner_member_id": "M011",
+      "split": "development",
+      "ambiguity_level": "medium",
+      "leakage_review": "pending"
+    }
+  ]
+}
